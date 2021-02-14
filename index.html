@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Task</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <ul class="list-group list-group-flush js-comments-list">
+            </ul>
+        </div>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control js-input-name" placeholder="Current user name" onsubmit="event.preventDefault()" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <input type="text" class="form-control js-input-text" name='text' placeholder="Comment" onsubmit="event.preventDefault()" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary js-comment-button" type="button" id="button-addon2">Comment</button>
+        </div>
+        <button type="button" class="btn btn-outline-success js-save-btn"><a download="commentsfile1.txt" href='#' class="js-link">Save .txt file</a></button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
